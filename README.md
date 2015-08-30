@@ -72,11 +72,11 @@ fetchAudioBuffer("./amen.wav", audioContext).then((audioBuffer) => {
 ```
 
 ## API
-- `constructor(audioContext: AudioContext, [ bufferSize: number ])`
+- `constructor(audioContext: AudioContext, [ bufferSize: number ]): ScriptProcessorNode`
 
 ### Instance attributes
 - `context: AudioContext` _readonly_
-- `bufferSize: number`
+- `bufferSize: number` _readonly_
 
 ### Instance methods
 - `addProcessor(func: function): void`
